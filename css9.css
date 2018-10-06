@@ -1,0 +1,73 @@
+* {
+		margin:0px;
+		padding:0px;
+	}
+	
+	#header {
+		margin:auto;
+		width:500px;
+		font-family:;
+	}
+	
+	ul, ol {
+		list-style:none;
+	}
+	
+	.nav > li {
+		float:left;
+	}
+	
+	.nav li a {
+		background-color:#000;
+		color:#fff;
+		text-decoration:none;
+		padding:10px 12px;
+		display:block;
+	}
+	
+	.nav li a:hover {
+		background-color:#434343;
+	}
+	
+	.nav li ul {
+		display:none;
+		position:absolute;
+		min-width:140px;
+	}
+	
+	.nav li:hover > ul {
+		display:block;
+	}
+	
+	.nav li ul li {
+		position:relative;
+	}
+	
+	.nav li ul li ul {
+		right:-140px;
+		top:0px;
+	}
+body,td,th {
+	font-style: 1000000000000000000;
+	font-style:oblique;
+}
+body {
+	background-image: url(sirujias.jpg);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%; 
+}	
+img{
+	width:800px;
+	height:700px;
+}
+header nav ul li a{
+   
+    display: block;
+    color: #fff;
+    text-decoration: none;
+     width: 130px;
+     height: 73px;
+
+}
+

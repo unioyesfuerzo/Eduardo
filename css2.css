@@ -1,0 +1,43 @@
+*{
+  padding: 0px;
+  margin: 0px;  
+}
+.nav > li {
+}	
+.nav li a {
+background-color:#566573;
+color:#fff;
+text-decoration:none;
+padding:10px 12px;
+display:block;
+	}
+.nav li a:hover {
+background-color:#434343;
+}
+	
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+}
+	
+.nav li:hover > ul {
+display:block;
+}
+	
+.nav li ul li {
+position:relative;
+}
+img{
+    width:290px;
+	height:290px;
+}
+header{
+	float: left;
+       background: #ffa500;
+       color: coral;
+     height: 900px;
+	 width:1300px;
+   border: black 10px double;
+   position:center;
+}

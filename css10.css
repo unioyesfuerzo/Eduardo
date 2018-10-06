@@ -1,0 +1,43 @@
+*{
+  padding: 0px;
+  margin: 0px;  
+}
+.nav > li {
+}	
+.nav li a {
+background-color:#566573;
+color:#fff;
+text-decoration:none;
+padding:10px 12px;
+display:block;
+	}
+.nav li a:hover {
+background-color:#434343;
+}
+	
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+}
+	
+.nav li:hover > ul {
+display:block;
+}
+	
+.nav li ul li {
+position:relative;
+}
+body,td,th {
+	font-style: 1;
+	font-style:;
+}
+body {
+	background-image: url(sendero-de-arboles-en-la-nieve.jpg);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%; 
+	background:#CCD1D1;
+	background-attachment:fixed;
+color:#black;
+}
